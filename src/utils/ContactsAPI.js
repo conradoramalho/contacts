@@ -1,4 +1,5 @@
 const api = process.env.REACT_APP_CONTACTS_API_URL || 'http://localhost:5001'
+console.log('api: ', api);
 
 let token = localStorage.token
 
